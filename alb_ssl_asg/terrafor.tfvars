@@ -1,0 +1,2 @@
+certificate_arn="INSERT CERTIFICATE ARN HERE"
+zone_id= "INSERT DNS ZONE ID HERE"
