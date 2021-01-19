@@ -1,0 +1,16 @@
+{
+    "Id": "Policy1610986682197",
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "Stmt1610986680561",
+        "Action": [
+          "s3:GetObject",
+          "s3:GetObjectVersion"
+        ],
+        "Effect": "Allow",
+        "Resource": "arn:aws:s3:::aws.my.bkt/*",
+        "Principal": "*"
+      }
+    ]
+  }
